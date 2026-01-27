@@ -1,0 +1,11 @@
+file_format: "1"
+id: terence0
+name: terence0
+type: shield
+url: https://github.com/Terence-1/myKeyboard
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - terence0_left
+  - terence0_right

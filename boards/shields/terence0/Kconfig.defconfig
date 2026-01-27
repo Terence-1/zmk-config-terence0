@@ -1,0 +1,16 @@
+if SHIELD_TERENCE0_LEFT
+
+config ZKM_KEYBOARD_NAME
+    default "Terence0"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TERENCE0_LEFT || SHIELD_TERENCE0_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
