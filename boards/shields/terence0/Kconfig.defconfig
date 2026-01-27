@@ -1,6 +1,6 @@
 if SHIELD_TERENCE0_LEFT
 
-config ZKM_KEYBOARD_NAME
+config ZMK_KEYBOARD_NAME
     default "Terence0"
 
 config ZMK_SPLIT_ROLE_CENTRAL
