@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice_nano@1
+    shield: terence0_left
+  - board: nice_nano@1
+    shield: terence0_right
