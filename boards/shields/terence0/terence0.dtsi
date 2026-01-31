@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <terence0-layouts.dtsi>
+#include "terence0-layouts.dtsi"
 
 / {
     kscan0: kscan0 {
