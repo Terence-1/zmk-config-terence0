@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi>
+#include <terence0-layouts.dtsi>
 
 / {
     chosen {
@@ -27,6 +27,6 @@
 
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;  // New item added
+        zmk,physical-layout = &physical_layout0;
     };
 };
