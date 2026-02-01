@@ -36,9 +36,6 @@ config USB_DEVICE_PID
 config ZMK_USB
     default y
 
-config ZMK_STUDIO_LOCKING
-    default n
-
 endif # ZMK_STUDIO
 
 endif
