@@ -1,7 +1,7 @@
-if SHIELD_TERENCE0_DONGLE
+if SHIELD_SIMPLE34_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Terence0"
+    default "Simple34"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -11,7 +11,7 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 
 endif
 
-if SHIELD_TERENCE0_LEFT || SHIELD_TERENCE0_RIGHT || SHIELD_TERENCE0_DONGLE
+if SHIELD_SIMPLE34_LEFT || SHIELD_SIMPLE34_RIGHT || SHIELD_SIMPLE34_DONGLE
 
 config ZMK_SPLIT
     default y
@@ -25,7 +25,7 @@ config USB_DEVICE_STACK
     default y
 
 config USB_DEVICE_MANUFACTURER
-    default "Terence0"
+    default "Simple34"
 
 config USB_DEVICE_VID
     default 0x1D50

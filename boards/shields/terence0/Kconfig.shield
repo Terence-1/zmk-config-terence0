@@ -1,8 +1,0 @@
-config SHIELD_TERENCE0_DONGLE
-    def_bool $(shields_list_contains,terence0_dongle)
-
-config SHIELD_TERENCE0_LEFT
-    def_bool $(shields_list_contains,terence0_left)
-
-config SHIELD_TERENCE0_RIGHT
-    def_bool $(shields_list_contains,terence0_right)

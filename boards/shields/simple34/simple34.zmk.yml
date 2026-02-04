@@ -1,12 +1,12 @@
 file_format: "1"
-id: terence0
-name: terence0
+id: simple34
+name: simple34
 type: shield
 url: https://github.com/Terence-1/myKeyboard
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - terence0_left
-  - terence0_right
-  - terence0_dongle
+  - simple34_left
+  - simple34_right
+  - simple34_dongle
